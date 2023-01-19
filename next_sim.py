@@ -22,7 +22,7 @@ N = 15 # number of oxides
 array1 = np.zeros(N)
 length = len(lines)
 percents = (lines[length - N:length + 1 ])
-words = (lines[6:6 + N])
+words = (lines[7:7 + N])
 temp = str(ma.trunc(float(lines[ - (N + 2)]) - 273.15)) # in celsius
 pres = str(lines[ - (N + 3)]) # in bars
 

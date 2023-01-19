@@ -31,7 +31,7 @@ os.system('mkdir ../NEXT_SIM')
 os.system('cp -a * ../NEXT_SIM')
 
 f = open("../NEXT_SIM/Sudbury.melts","w")
-f.write("Title: Sudbury_Bulk_Comp_with_Cr_and_traces \n \n")
+f.write("Title: Sudbury_Bulk_Comp_with_Cr_and_traces\n\n")
 
 for i in range(N):
     array1[i] = float(percents[i])

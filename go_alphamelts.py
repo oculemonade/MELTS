@@ -4,4 +4,4 @@
 
 import os
 
-os.system('/Users/nic/Desktop/macosx_alphamelts_1-9/bin/run_alphamelts.command -f Sudbury.txt -m Sudbury.melts')
+os.system('/Users/nic/Desktop/macosx_alphamelts_1-9/bin/run_alphamelts.command -f Sudbury.txt')

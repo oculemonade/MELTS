@@ -137,7 +137,7 @@ for pressure in pressures: # Looping through the established pressures
         f.write("log fo2 Path: None\n")
         f.write("Mode: Fractionate Solids")
 
-    os.chdir(new_folder_path)
+    os.chdir(third_folder_path)
     os.system('/Users/nic/Desktop/alphaMELTS2-master/bin/run-alphamelts.command < batch.txt')
     os.chdir('..') #goes back a directory
 
